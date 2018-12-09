@@ -6,6 +6,6 @@ writeExtensionMethods: methods className: className
 		writeStreamFor: (className, '.extension.st') 
 		in: self packageDir 
 		do: [ :s |
-			s << 'Extension ' << (self toSTON: { #name -> className } asDictionary) << nl.
+			s nextPutAll: 'Extension '; nextPutAll: (self toSTON: { #name -> className } asDictionary); nextPutAll: nl.
 			(methods sorted: [ :a :b | a selector < b selector ])
 				do: [ :each | self writeMethodDefinition: each on: s ] ]

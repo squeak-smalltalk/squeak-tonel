@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"isStartingComment" : " 12/9/2018 20:41:24",
+		"isStartingLiteralArray" : " 12/9/2018 20:41:24",
+		"isStartingLiteralCharacter" : " 12/9/2018 20:41:24",
+		"isStartingString" : " 12/9/2018 20:41:24",
+		"prepareToScan" : " 12/9/2018 20:41:24",
+		"readNext" : " 12/9/2018 20:41:24",
+		"readUntil:" : " 12/9/2018 20:41:24",
+		"readUntilTermination:" : " 12/9/2018 20:41:24",
+		"scan" : " 12/9/2018 20:41:24",
+		"scanForBlock" : " 12/9/2018 20:41:24",
+		"scanForComment" : " 12/9/2018 20:41:24",
+		"scanForLiteralArray" : " 12/9/2018 20:41:24",
+		"scanForLiteralCharacter" : " 12/9/2018 20:41:24",
+		"scanForString" : " 12/9/2018 20:41:24",
+		"scanNextChunk" : " 12/9/2018 20:41:24" } }

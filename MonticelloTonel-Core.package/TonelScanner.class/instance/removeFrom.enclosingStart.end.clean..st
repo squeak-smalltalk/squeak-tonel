@@ -4,7 +4,7 @@ removeFrom: aString enclosingStart: startChar end: endChar clean: cleanSymbol
 	| nl result stop ch start end |
 	
 	nl := String cr.
-	result := (aString trimBoth withLineEndings: nl) readStream.
+	result := (aString withBlanksTrimmed withLineEndings: nl) readStream.
 	(result peek = startChar) 
 		ifFalse: [ TonelParseError signal: 'I cannot remove enclosing start' ].
 	result skip: 1.

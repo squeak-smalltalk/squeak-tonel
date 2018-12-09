@@ -1,17 +1,18 @@
 {
-	"commentStamp" : "nice 11/12/2018 23:01",
-	"super" : "TonelScanner",
 	"category" : "MonticelloTonel-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 11/12/2018 23:01",
 	"instvars" : [
 		"char",
 		"prevChar",
 		"result",
 		"count",
-		"isFinished"
-	],
+		"isFinished" ],
 	"name" : "TonelSourceScanner",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TonelScanner",
+	"type" : "normal" }

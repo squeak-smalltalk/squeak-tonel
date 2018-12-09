@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "EstebanLorenzano 9/11/2017 11:59",
-	"super" : "STONWriter",
 	"category" : "MonticelloTonel-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 9/11/2017 11:59",
 	"instvars" : [
-		"aliases"
-	],
+		"aliases" ],
 	"name" : "TonelSTONWriter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "STONWriter",
+	"type" : "normal" }

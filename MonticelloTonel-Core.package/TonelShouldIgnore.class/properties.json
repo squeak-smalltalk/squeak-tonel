@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "nice 11/12/2018 22:59",
-	"super" : "Notification",
 	"category" : "MonticelloTonel-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nice 11/12/2018 22:59",
+	"instvars" : [
+		 ],
 	"name" : "TonelShouldIgnore",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

@@ -1,0 +1,28 @@
+{
+	"class" : {
+		"basicFromUrl:" : " 12/9/2018 20:41:24",
+		"createRepositoryFromSpec:on:" : " 12/9/2018 20:41:24",
+		"description" : " 12/9/2018 20:41:24",
+		"isAvailableFor:" : " 12/9/2018 20:41:24",
+		"isFiletreeAlternateFormat:" : " 12/9/2018 20:41:24",
+		"urlSchemes" : " 12/9/2018 20:41:24" },
+	"instance" : {
+		"allFileNamesForVersionNamed:" : " 12/9/2018 20:41:24",
+		"asRepositorySpecFor:" : " 12/9/2018 20:41:24",
+		"basicStoreVersion:" : " 12/9/2018 20:41:24",
+		"description" : " 12/9/2018 20:41:24",
+		"fileDirectoryOn:" : " 12/9/2018 20:41:24",
+		"fileUtils" : " 12/9/2018 20:41:24",
+		"filterFileNames:forVersionNamed:" : " 12/9/2018 20:41:24",
+		"goferVersionFrom:" : " 12/9/2018 20:41:24",
+		"loadAllFileNames" : " 12/9/2018 20:41:24",
+		"packageDescriptionFromPackageDirectory:" : " 12/9/2018 20:41:24",
+		"packageDescriptionsFromReadableFileNames" : " 12/9/2018 20:41:24",
+		"readStreamForFileNamed:do:" : " 12/9/2018 20:41:24",
+		"readableFileNames" : " 12/9/2018 20:41:24",
+		"readableFileReferences" : " 12/9/2018 20:41:24",
+		"versionFrom:" : " 12/9/2018 20:41:24",
+		"versionInfoForPackageDirectory:" : " 12/9/2018 20:41:24",
+		"versionInfoFromVersionNamed:" : " 12/9/2018 20:41:24",
+		"versionNameFromFileName:" : " 12/9/2018 20:41:24",
+		"versionWithInfo:ifAbsent:" : " 12/9/2018 20:41:24" } }

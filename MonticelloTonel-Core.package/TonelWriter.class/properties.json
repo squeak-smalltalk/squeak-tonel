@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "CyrilFerlicot 10/23/2018 15:52",
-	"super" : "MCWriter",
 	"category" : "MonticelloTonel-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CyrilFerlicot 10/23/2018 15:52",
 	"instvars" : [
 		"snapshot",
 		"packageDir",
-		"directoryReference"
-	],
+		"directoryReference" ],
 	"name" : "TonelWriter",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "MCWriter",
+	"type" : "normal" }

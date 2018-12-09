@@ -1,3 +1,5 @@
 private
 newLine
-	 ^ OSPlatform current lineEnding
+	 ^ Smalltalk os platformName caseOf:
+		{['Win32'] -> [String crlf]}
+		otherwise: [String lf]

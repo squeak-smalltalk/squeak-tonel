@@ -19,10 +19,10 @@ extractSelector: aString
 		[ selectorStream atEnd not and: [ (separators includes: (ch := selectorStream next)) not ] ]
 		whileTrue: [ word nextPut: ch ].
 		ch = $: ifTrue: [ word nextPut: ch ]. 
-		word contents trimBoth ifNotEmpty: [ :v | keywords nextPut: v ] ].
+		word contents withBlanksTrimmed ifNotEmpty: [ :v | keywords nextPut: v ] ].
 	keywords := keywords contents.
 
 	^ (keywords size <= 2 
 		ifTrue: [ keywords first]
-		ifFalse: [ ('' join: (keywords pairsCollect: [ :keyword :argument | keyword ])) ])
+		ifFalse: [ (keywords pairsCollect: [ :keyword :argument | keyword ]) join ])
 		asSymbol

@@ -12,7 +12,7 @@ I am a simple Mock for Tonel export test
 Class {
 	#name : #TonelMock,
 	#superclass : #Object,
-	#category : #''MonticelloTonel-Tests''
+	#category : ''MonticelloTonel-Tests''
 }
 
 { #category : #accessing }
@@ -25,4 +25,4 @@ TonelMock >> instanceMethod [
 	^ true
 ]
 '
-				withLineEndings: OSPlatform current lineEnding)
+				withLineEndings: self platformLineEnding)

@@ -10,10 +10,9 @@ Class {
 		''ivar''
 	],
 	#classVars : [
-		''CVar'',
-		''InitializationOrder''
+		''CVar''
 	],
-	#category : #MonticelloMocks
+	#category : #''Tests-Monticello-Mocks''
 }
 
 { #category : #''as yet unclassified'' }
@@ -22,16 +21,8 @@ MCMockClassA class >> cVar [
 ]
 
 { #category : #''as yet unclassified'' }
-MCMockClassA class >> initializationOrder [
-
-	^ InitializationOrder
-]
-
-{ #category : #''as yet unclassified'' }
 MCMockClassA class >> initialize [
-	CVar := #initialized.
-	InitializationOrder := 1.
-
+	CVar := #initialized
 ]
 
 { #category : #''as yet unclassified'' }
@@ -47,20 +38,20 @@ MCMockClassA class >> touchCVar [
 
 { #category : #numeric }
 MCMockClassA >> a [
-	^ ''a2''
+	^ ''a''
 ]
 
 { #category : #numeric }
 MCMockClassA >> b [
-	^ ''b1''
+	^ ''b''
 ]
 
 { #category : #numeric }
 MCMockClassA >> c [
-	^ ''c1''
+	^ ''c''
 ]
 
-{ #category : #numeric }
+{ #category : #''as yet classified'' }
 MCMockClassA >> d [
 	^ ''d''
 ]

@@ -11,7 +11,7 @@ splitMethodSource: aMethodDefinition into: aBlock
 	"Parse declaration"
 	declaration := String new writeStream.
 	[ (self selectorIsComplete: keywords in: declaration originalContents) not 
-		or: [ ':+-/\*~<>=@,%|&?!' includes: declaration contents trimRight last ] ]
+		or: [ ':+-/\*~<>=@,%|&?!' includes: declaration contents withoutTrailingBlanks last ] ]
 	whileTrue: [ 
 		"stop infinite loop if no match was found"
 		source atEnd ifTrue: [ TonelWriteError signal: 'Cannot find selector in source for ', aMethodDefinition asString ].
@@ -22,5 +22,5 @@ splitMethodSource: aMethodDefinition into: aBlock
 		[ source atEnd not and: [ source peek isSeparator not ] ]
 			whileTrue: [ declaration nextPut: source next ] ].
 	aBlock 
-		value: (declaration contents trimLeft withLineEndings: self newLine)
+		value: (declaration contents withoutLeadingBlanks withLineEndings: self newLine)
 		value: (source upToEnd withLineEndings: self newLine)

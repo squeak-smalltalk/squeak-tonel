@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "EstebanLorenzano 9/21/2017 19:04",
-	"super" : "TonelFileUtils",
 	"category" : "MonticelloTonel-FileSystem",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 9/21/2017 19:04",
+	"instvars" : [
+		 ],
 	"name" : "TonelFileSystemUtils",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "TonelFileUtils",
+	"type" : "normal" }

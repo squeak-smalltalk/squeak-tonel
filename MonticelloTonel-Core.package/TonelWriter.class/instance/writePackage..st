@@ -11,6 +11,6 @@ writePackage: aDefinition
 		in: self packageDir 
 		do: [ :s | 
 			s 
-				<< 'Package ' 
-				<< (self toSTON: { #name ->  packageDir asSymbol } asDictionary) 
-				<< self newLine ]
+				nextPutAll: 'Package ';
+				nextPutAll: (self toSTON: { #name ->  packageDir asSymbol } asDictionary);
+				nextPutAll: self newLine ]

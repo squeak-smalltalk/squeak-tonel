@@ -7,4 +7,4 @@ cleanSelector: aString
 	^ (aString last = Character space
 		ifTrue: [ aString allButLast ]
 		ifFalse: [ aString ]) 
-		trimLeft
+		withoutLeadingBlanks

@@ -1,0 +1,6 @@
+OrderedDictionary {
+	'MonticelloTonel-Core.package' : #SquotCypressCodeSerializer,
+	'MonticelloTonel-FileSystem.package' : #SquotCypressCodeSerializer,
+	'MonticelloTonel-Tests.package' : #SquotCypressCodeSerializer,
+	'BaselineOfTonel.package' : nil
+}

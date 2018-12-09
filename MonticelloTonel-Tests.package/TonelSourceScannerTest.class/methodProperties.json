@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testScan" : " 12/9/2018 20:41:24",
+		"testScanForComment" : " 12/9/2018 20:41:24",
+		"testScanForLiteralArray" : " 12/9/2018 20:41:24",
+		"testScanForString" : " 12/9/2018 20:41:24",
+		"testScanMethodWithLotsOfSpecials" : " 12/9/2018 20:41:24",
+		"testScanMethodWithParserErrors" : " 12/9/2018 20:41:24",
+		"testScanMethodWithTerminatingBrackets" : " 12/9/2018 20:41:24" } }

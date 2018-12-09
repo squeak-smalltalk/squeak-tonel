@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "EstebanLorenzano 9/11/2017 12:09",
-	"super" : "Object",
 	"category" : "MonticelloTonel-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EstebanLorenzano 9/11/2017 12:09",
 	"instvars" : [
-		"stream"
-	],
+		"stream" ],
 	"name" : "TonelParser",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

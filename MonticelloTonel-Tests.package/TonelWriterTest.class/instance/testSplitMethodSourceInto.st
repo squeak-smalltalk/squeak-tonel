@@ -2,7 +2,7 @@ tests
 testSplitMethodSourceInto
 	| writer declaration source definition newLine tab space |
 	
-	newLine := OSPlatform current lineEnding.
+	newLine := self platformLineEnding.
 	tab := Character tab asString.
 	space := Character space asString.
 	writer := self actualClass new.
@@ -48,7 +48,7 @@ testSplitMethodSourceInto
 	self assert: declaration equals: ('method: var1
 	with: var2
 	several: var3
-	lines: var4' withLineEndings: OSPlatform current lineEnding).
+	lines: var4' withLineEndings: self platformLineEnding).
 	self assert: source equals: (newLine, tab, newLine, tab, '^ var1 + var2 + var3 + var4' withLineEndings: newLine).
 
 	"test comment before declaration (it may happen, if someone copied from diffmorph)"

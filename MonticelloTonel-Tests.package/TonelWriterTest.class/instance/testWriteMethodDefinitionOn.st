@@ -21,7 +21,7 @@ testWriteMethodDefinitionOn
 Object >> selector [
 	^ 42
 ]
-' withLineEndings: OSPlatform current lineEnding).
+' withLineEndings: self platformLineEnding).
 
 	stream := String new writeStream.
 	def := MCMethodDefinition 
@@ -40,7 +40,7 @@ Object >> selector [
 Object class >> selector [
 	^ 42
 ]
-' withLineEndings: OSPlatform current lineEnding).
+' withLineEndings: self platformLineEnding).
 
 
 	stream := String new writeStream.
@@ -60,4 +60,4 @@ Object class >> selector [
 Object >> = anObject [
 	^ self == anObject
 ]
-' withLineEndings: OSPlatform current lineEnding).
+' withLineEndings: self platformLineEnding).

@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "EstebanLorenzano 9/21/2017 19:03",
-	"super" : "Object",
 	"category" : "MonticelloTonel-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classinstvars" : [
+		 ],
 	"classvars" : [
-		"Current"
-	],
-	"instvars" : [ ],
+		"Current" ],
+	"commentStamp" : "EstebanLorenzano 9/21/2017 19:03",
+	"instvars" : [
+		 ],
 	"name" : "TonelFileUtils",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

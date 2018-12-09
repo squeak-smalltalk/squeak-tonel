@@ -6,9 +6,9 @@ writeClassDefinition: aClassDefinition on: aStream
 	aClassDefinition hasComment 
 		ifTrue: [ 
 			aStream 
-				<< '"' << nl
-				<< (self commentOf: aClassDefinition) << nl
-				<< '"' << nl ].
+				nextPutAll: '"'; nextPutAll: nl;
+				nextPutAll: (self commentOf: aClassDefinition); nextPutAll: nl;
+				nextPutAll: '"'; nextPutAll: nl ].
 	aStream
-		<< (self typeOf: aClassDefinition) 
-		<< ' ' << (self typeDefinitionOf: aClassDefinition ) << nl
+		nextPutAll: (self typeOf: aClassDefinition);
+		nextPutAll: ' '; nextPutAll: (self typeDefinitionOf: aClassDefinition ); nextPutAll: nl

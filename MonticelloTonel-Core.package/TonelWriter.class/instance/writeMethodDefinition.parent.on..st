@@ -8,7 +8,7 @@ writeMethodDefinition: aMethodDefinition parent: aClassDefinition on: aStream
 		into: [ :methodDeclaration :methodBody | | fullClassName |
 			fullClassName := self classNameFor: aMethodDefinition parent: aClassDefinition.
 			aStream 
-				<< nl 
-				<< (self methodDefinitionOf: aMethodDefinition) << nl 
-				<< fullClassName << ' >> ' << methodDeclaration 
-				<< ' [' << methodBody << nl << ']' << nl ]
+				nextPutAll: nl;
+				nextPutAll: (self methodDefinitionOf: aMethodDefinition); nextPutAll: nl;
+				nextPutAll: fullClassName; nextPutAll: ' >> '; nextPutAll: methodDeclaration;
+				nextPutAll: ' ['; nextPutAll: methodBody; nextPutAll: nl; nextPutAll: ']'; nextPutAll: nl]
