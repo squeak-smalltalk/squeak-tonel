@@ -4,4 +4,4 @@
 	'MonticelloTonel-Tests'
 	'MonticelloTonel-Core'
 	'MonticelloTonel-FileSystem') 
-do: [ :each | (each asPackageIfAbsent: [ nil ]) ifNotNil: #removeFromSystem ].
+do: [ :each | (PackageInfo named: each) workingCopy unload ].
