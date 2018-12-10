@@ -3,9 +3,18 @@ baseline: spec
 	<baseline>
 	spec
 		for: #common
-		do: [ 
+		do: [
 			spec
-				package: #'MonticelloTonel-Core';
+				baseline: 'Ston' with: [
+					spec repository: 'github://fniephaus/ston:fniephaus-patch-3/repository'. ];
+				baseline: 'FileSystem' with: [
+					spec
+						className: 'BaselineOfSquot';
+						repository: 'github://hpi-swa/Squot:master/src';
+						loads: #('FileSystem').
+				].
+			spec
+				package: #'MonticelloTonel-Core' with: [ spec requires: #('FileSystem' 'Ston') ];
 				package: #'MonticelloTonel-FileSystem' with: [ spec requires: #('MonticelloTonel-Core') ];
 				package: #'MonticelloTonel-Tests' with: [ spec requires: #('MonticelloTonel-Core') ].
 			spec
