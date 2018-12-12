@@ -12,5 +12,5 @@ writePackage: aDefinition
 		do: [ :s | 
 			s 
 				nextPutAll: 'Package ';
-				nextPutAll: (self toSTON: { #name ->  packageDir asSymbol } asDictionary);
+				nextPutAll: (self toSTON: ({ #name ->  packageDir asSymbol } as: Dictionary));
 				nextPutAll: self newLine ]

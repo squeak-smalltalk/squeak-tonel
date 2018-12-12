@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"new" : " 12/9/2018 20:41:24",
-		"on:" : " 12/9/2018 20:41:24" },
+		"new" : "12/9/2018 20:41:24",
+		"on:" : "12/9/2018 20:41:24" },
 	"instance" : {
-		"initializeStream:" : " 12/9/2018 20:41:24",
-		"isEnter:" : " 12/9/2018 20:41:24",
-		"isSeparator:" : " 12/9/2018 20:41:24",
-		"removeFrom:enclosingStart:end:" : " 12/9/2018 20:41:24",
+		"initializeStream:" : "12/9/2018 20:41:24",
+		"isEnter:" : "12/9/2018 20:41:24",
+		"isSeparator:" : "12/9/2018 20:41:24",
+		"removeFrom:enclosingStart:end:" : "12/9/2018 20:41:24",
 		"removeFrom:enclosingStart:end:clean:" : "jr 12/9/2018 19:44",
-		"scan" : " 12/9/2018 20:41:24" } }
+		"scan" : "12/9/2018 20:41:24" } }

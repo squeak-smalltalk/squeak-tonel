@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"aliases" : " 12/9/2018 20:41:24",
-		"aliases:" : " 12/9/2018 20:41:24",
-		"encodeMap:" : " 12/9/2018 20:41:24",
-		"initialize" : " 12/9/2018 20:41:24",
-		"isSimpleSymbol:" : " 12/9/2018 20:41:24",
-		"stonNameFor:" : " 12/9/2018 20:41:24",
-		"writeObject:do:" : " 12/9/2018 20:41:24" } }
+		"aliases" : "12/9/2018 20:41:24",
+		"aliases:" : "12/9/2018 20:41:24",
+		"encodeMap:" : "12/9/2018 20:41:24",
+		"initialize" : "TonelWriterTest 12/12/2018 22:56",
+		"isSimpleSymbol:" : "12/9/2018 20:41:24",
+		"stonNameFor:" : "12/9/2018 20:41:24",
+		"writeObject:do:" : "12/9/2018 20:41:24" } }
