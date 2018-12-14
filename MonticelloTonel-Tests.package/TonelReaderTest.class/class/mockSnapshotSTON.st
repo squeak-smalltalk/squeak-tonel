@@ -126,7 +126,7 @@ mockSnapshotSTON
 		MCMethodDefinition {
 			#classIsMeta : false,
 			#source : ''d\r\t^ \''d\'''',
-			#category : #numeric,
+			#category : #''as yet classified'',
 			#selector : #d,
 			#className : #MCMockClassA
 		},
