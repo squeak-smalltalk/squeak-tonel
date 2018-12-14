@@ -23,6 +23,10 @@ testWriteSnapshot
 			'package.st').
 	
 	nl := self platformLineEnding.
+	Transcript show: 'expected:'; cr;
+		show: (self expectedMCMockClassAClassSt withLineEndings: nl);
+		cr; show: 'actual:'; cr;
+		show: (mem / 'Tests-MonticelloMocks' / 'MCMockClassA.class.st') contents.
 	self 
 		assert: (mem / 'Tests-MonticelloMocks' / 'MCMockClassA.class.st') contents
 		equals: (self expectedMCMockClassAClassSt withLineEndings: nl).
