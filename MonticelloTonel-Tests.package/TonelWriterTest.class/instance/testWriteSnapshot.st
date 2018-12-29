@@ -37,7 +37,8 @@ testWriteSnapshot
 		changeList
 			do: 	[:each | Transcript
 							show: 'category: '; show: each category; cr;
-							show: 'stamp: '; show: each stamp; cr].
+							show: 'stamp: '; show: each stamp; cr;
+							show: 'text: '; show: each text; cr].
 	self 
 		assert: (mem / 'Tests-MonticelloMocks' / 'MCMockClassA.class.st') contents
 		equals: (self expectedMCMockClassAClassSt withLineEndings: nl).
