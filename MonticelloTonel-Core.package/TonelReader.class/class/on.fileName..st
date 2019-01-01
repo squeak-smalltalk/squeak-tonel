@@ -6,11 +6,8 @@ on: parentDirectoryReference fileName: fileName
 	
 	This operation will NOT read the package, but resulting instance will be prepared
 	to doit, executing: #loadDefinitions"
-	| suffix packageName |
-	suffix := self generatedVersionSuffix.
-	(fileName endsWith: suffix)
-		ifTrue: [packageName := fileName allButLast: suffix size]
-		ifFalse: [packageName := fileName].
+	| packageName |
+	packageName := TonelRepository directoryNameFromFileName: fileName.
 	^ (self on: parentDirectoryReference)
 		packageDirectory: packageName;
 		yourself

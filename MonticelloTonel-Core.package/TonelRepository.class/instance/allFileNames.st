@@ -3,4 +3,4 @@ allFileNames
 
 	^directory entries 
 		sort: [ :a :b | a name >= b name ];
-		replace: [ :ea | (ea name, TonelReader generatedVersionSuffix) asMCVersionName ]
+		replace: [ :ea | (self fileNameFromDirectory: ea asReference) asMCVersionName ]

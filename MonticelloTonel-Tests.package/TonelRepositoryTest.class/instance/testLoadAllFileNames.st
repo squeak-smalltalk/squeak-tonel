@@ -6,5 +6,5 @@ testLoadAllFileNames
 	repository := TonelRepository new directory: mem.
 	self 
 		assert: repository allFileNames 
-		equals: #('Tests-MonticelloMocks')
+		equals: #('Tests-MonticelloMocks-tonel.1')
 		

@@ -1,5 +1,4 @@
 versions
 versionNameFromFileName: aString
-	| description |
-	description := self packageDescriptionFromPackageDirectory: (self fileDirectoryOn: aString).
-	^ description first , '-' , description second , '.' , description third printString
+	"Currently, the 'file names' are faked to be version names, so the MCFileRepositoryInspector can handle Tonel repositories."
+	^ aString
