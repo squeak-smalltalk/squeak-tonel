@@ -23,22 +23,6 @@ testWriteSnapshot
 			'package.st').
 	
 	nl := self platformLineEnding.
-	Transcript show: 'expected:'; cr;
-		show: (self expectedMCMockClassAClassSt withLineEndings: nl);
-		cr; show: 'actual:'; cr;
-		show: (mem / 'Tests-MonticelloMocks' / 'MCMockClassA.class.st') contents;
-		cr; show: 'versions of MCMockClassA >> #d:'; cr.
-	(VersionsBrowser
-		browseVersionsOf: MCMockClassA >> #d
-		class: MCMockClassA
-		meta: false
-		category: (MCMockClassA whichCategoryIncludesSelector: #d)
-		selector: #d)
-		changeList
-			do: 	[:each | Transcript
-							show: 'category: '; show: each category; cr;
-							show: 'stamp: '; show: each stamp; cr;
-							show: 'text: '; show: each text; cr].
 	self 
 		assert: (mem / 'Tests-MonticelloMocks' / 'MCMockClassA.class.st') contents
 		equals: (self expectedMCMockClassAClassSt withLineEndings: nl).
