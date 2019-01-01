@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"canReadFileNamed:" : "12/9/2018 20:41:24",
+		"canReadFileNamed:" : "jr 1/1/2019 18:54",
 		"definitionOrders" : "12/9/2018 20:41:24",
 		"extension" : "12/9/2018 20:41:24",
+		"generatedVersionSuffix" : "jr 1/1/2019 18:54",
 		"isAbstract" : "12/9/2018 20:41:24",
-		"on:fileName:" : "12/9/2018 20:41:24" },
+		"on:fileName:" : "jr 1/1/2019 18:54" },
 	"instance" : {
 		"canBeLoaded:" : "12/9/2018 20:41:24",
 		"categoriesFrom:" : "12/9/2018 20:41:24",
@@ -12,7 +13,7 @@
 		"loadDefinitions" : "12/9/2018 20:41:24",
 		"loadDependencies" : "12/9/2018 20:41:24",
 		"loadPackage" : "12/9/2018 20:41:24",
-		"loadVersionInfo" : "12/9/2018 20:41:24",
+		"loadVersionInfo" : "jr 1/1/2019 18:55",
 		"packageDirectory" : "12/9/2018 20:41:24",
 		"packageDirectory:" : "12/9/2018 20:41:24",
 		"packageNameFromPackageDirectory" : "12/9/2018 20:41:24" } }

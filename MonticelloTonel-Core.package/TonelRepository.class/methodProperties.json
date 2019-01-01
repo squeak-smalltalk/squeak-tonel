@@ -7,9 +7,11 @@
 		"isFiletreeAlternateFormat:" : "12/9/2018 20:41:24",
 		"urlSchemes" : "12/9/2018 20:41:24" },
 	"instance" : {
+		"allFileNames" : "jr 1/1/2019 18:55",
 		"allFileNamesForVersionNamed:" : "12/9/2018 20:41:24",
 		"asRepositorySpecFor:" : "12/9/2018 20:41:24",
 		"basicStoreVersion:" : "12/9/2018 20:41:24",
+		"canReadFileNamed:" : "jr 1/1/2019 18:31",
 		"description" : "jr 1/1/2019 16:58",
 		"directory:" : "jr 1/1/2019 16:55",
 		"fileDirectoryOn:" : "12/9/2018 20:41:24",
