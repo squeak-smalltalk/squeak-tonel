@@ -1,3 +1,3 @@
-accessing
+user interface
 description
-    ^ self class description, super description
+	^ directory fullName
