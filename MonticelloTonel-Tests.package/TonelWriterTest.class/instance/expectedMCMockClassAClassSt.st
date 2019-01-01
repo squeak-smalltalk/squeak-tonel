@@ -51,7 +51,7 @@ MCMockClassA >> c [
 	^ ''c''
 ]
 
-{ #category : #''as yet classified'' }
+{ #category : ', (MCMockClassA organization categoryOfElement: #d) printString, ' }
 MCMockClassA >> d [
 	^ ''d''
 ]
