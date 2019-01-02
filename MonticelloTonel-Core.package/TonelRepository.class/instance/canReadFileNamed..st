@@ -1,3 +1,3 @@
 private-files
 canReadFileNamed: aString
-    ^ true
+    ^ (self directoryFromFileName: aString) isDirectory
