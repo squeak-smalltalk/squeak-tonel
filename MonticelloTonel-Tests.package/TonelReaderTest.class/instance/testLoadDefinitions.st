@@ -4,7 +4,7 @@ testLoadDefinitions
 	
 	snapshot := self mockSnapshot.
 	mem := self newMemoryFileSystemSnapshot: snapshot.
-	reader := TonelReader on: mem fileName: 'MonticelloMocks'.
+	reader := TonelReader on: mem fileName: 'MonticelloMocks-tonel.1'.
 	reader loadDefinitions.
 	
 	self 
