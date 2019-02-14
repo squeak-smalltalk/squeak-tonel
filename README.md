@@ -13,6 +13,16 @@ Metacello new
 	load.
 ```
 
+### Squeak
+
+```Smalltalk
+Installer ensureRecentMetacello.
+(Smalltalk classNamed: #Metacello) new
+   repository: 'github://j4yk/tonel:squeak';
+   baseline: 'Tonel';
+   load.
+```
+
 ## Tonel Spec
 
     [comment]
