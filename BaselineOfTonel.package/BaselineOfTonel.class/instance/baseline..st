@@ -8,11 +8,7 @@ baseline: spec
 				baseline: 'Ston' with: [
 					spec repository: 'github://fniephaus/ston:fniephaus-patch-3/repository'. ];
 				baseline: 'FileSystem' with: [
-					spec
-						className: 'BaselineOfSquot';
-						repository: 'github://hpi-swa/Squot:master/src';
-						loads: #('FileSystem').
-				].
+					spec repository: 'github://j4yk/Squeak-FileSystem:master/src'. ].
 			spec
 				package: #'MonticelloTonel-Core' with: [ spec requires: #('FileSystem' 'Ston') ];
 				package: #'MonticelloTonel-FileSystem' with: [ spec requires: #('MonticelloTonel-Core') ];
