@@ -8,7 +8,8 @@ testWriteVersionSnapshotWithoutRootCategory
 	writer := self actualClass on: mem.
 	writer writeVersion: (MCVersion
 		package: (MCPackage named: 'TonelTest')
-		info: nil
+		info: (MCVersionInfo name: 'TonelTest-jr.1' asMCVersionName id: UUID new
+				message: '' date: Date today time: Time now author: 'jr' ancestors: #())
 		snapshot: (MCSnapshot fromDefinitions: {
 			MCOrganizationDefinition categories: #('TonelTest-Default').
 			MCClassDefinition
