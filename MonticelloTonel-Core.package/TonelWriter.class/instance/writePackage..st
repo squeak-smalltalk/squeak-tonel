@@ -1,7 +1,7 @@
 writing
 writePackage: aDefinition
 
-	packageDir := self obtainPackageDir: aDefinition.
+	packageDir ifNil: [packageDir := self obtainPackageDir: aDefinition].
 	self flag: #todo. "this is lame... removing and rewriting full package needs to be rethink :)"
 	(self fileUtils directoryExists: self packageDir) ifTrue: [ 
 		self fileUtils deleteAll: self packageDir ].  
