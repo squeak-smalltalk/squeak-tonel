@@ -18,7 +18,7 @@ Metacello new
 ```Smalltalk
 Installer ensureRecentMetacello.
 (Smalltalk classNamed: #Metacello) new
-   repository: 'github://j4yk/tonel:squeak';
+   repository: 'github://squeak-smalltalk/squeak-tonel:squeak';
    baseline: 'Tonel';
    load.
 ```

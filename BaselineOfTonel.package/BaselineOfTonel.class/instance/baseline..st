@@ -6,7 +6,7 @@ baseline: spec
 		do: [
 			spec
 				baseline: 'Ston' with: [
-					spec repository: 'github://fniephaus/ston:fniephaus-patch-3/repository'. ];
+					spec repository: 'github://squeak-smalltalk/squeak-ston:squeak/repository'. ];
 				baseline: 'FileSystem' with: [
 					spec repository: 'github://j4yk/Squeak-FileSystem:master/src'. ].
 			spec
