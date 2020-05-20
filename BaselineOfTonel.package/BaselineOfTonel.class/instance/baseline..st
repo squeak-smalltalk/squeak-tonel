@@ -8,7 +8,7 @@ baseline: spec
 				baseline: 'Ston' with: [
 					spec repository: 'github://squeak-smalltalk/squeak-ston:squeak/repository'. ];
 				baseline: 'FileSystem' with: [
-					spec repository: 'github://j4yk/Squeak-FileSystem:master/src'. ].
+					spec repository: 'github://squeak-smalltalk/squeak-filesystem:master/src'. ].
 			spec
 				package: #'MonticelloTonel-Core' with: [ spec requires: #('FileSystem' 'Ston') ];
 				package: #'MonticelloTonel-FileSystem' with: [ spec requires: #('MonticelloTonel-Core') ];
