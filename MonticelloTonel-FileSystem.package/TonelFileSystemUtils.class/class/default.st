@@ -1,3 +1,3 @@
 utilities
 default
-    ^ DiskStore activeClass createDefault defaultWorkingDirectory asFileReference
+    ^ FSDiskStore activeClass createDefault defaultWorkingDirectory asFileReference
