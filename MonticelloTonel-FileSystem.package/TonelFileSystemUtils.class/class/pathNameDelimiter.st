@@ -1,3 +1,3 @@
 utilities
 pathNameDelimiter
-    ^ DiskStore activeClass delimiter
+    ^ FSDiskStore activeClass delimiter
