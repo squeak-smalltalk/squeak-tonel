@@ -1,0 +1,4 @@
+accessing
+hash
+
+	^ directory hash
