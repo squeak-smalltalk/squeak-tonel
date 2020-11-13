@@ -15,5 +15,5 @@ newMethodDefinitionFrom: anArray
 		classIsMeta: meta
 		selector: selector
 		category: (metadata at: #category ifAbsent: [ '' ]) 
-		timeStamp: nil
+		timeStamp: (metadata at: #timestamp ifAbsent: [ nil ])
 		source: source

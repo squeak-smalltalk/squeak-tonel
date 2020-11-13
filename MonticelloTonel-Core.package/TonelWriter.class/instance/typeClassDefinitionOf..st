@@ -29,6 +29,8 @@ typeClassDefinitionOf: aClassDefinition
 		ifNotEmpty: [ :vars | definition at: #classInstVars put: vars asArray ].
 
 	definition 		
-		at: #category put: aClassDefinition category.
+		at: #category put: aClassDefinition category;
+		in: [:dict | aClassDefinition commentStamp ifNotNil: [:stamp |
+			stamp ifNotEmpty: [definition at: #commentStamp put: stamp]]].
 	
 	^ self toSTON: definition
