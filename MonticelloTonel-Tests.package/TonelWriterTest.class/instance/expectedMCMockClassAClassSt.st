@@ -12,39 +12,26 @@ Class {
 	#classVars : [
 		''CVar''
 	],
-	#category : #''Tests-Monticello-Mocks'',
-	#commentStamp : ''cwp 8/10/2003 16:43''
+	#category : #''Tests-Monticello-Mocks''
 }
 
-{
-	#category : #''as yet unclassified'',
-	#timestamp : ''cwp 8/10/2003 02:31''
-}
+{ #category : #''as yet unclassified'' }
 MCMockClassA class >> cVar [
 	^ CVar
 ]
 
-{
-	#category : #''as yet unclassified'',
-	#timestamp : ''cwp 8/10/2003 02:31''
-}
+{ #category : #''as yet unclassified'' }
 MCMockClassA class >> initialize [
 	CVar := #initialized
 ]
 
-{
-	#category : #''as yet unclassified'',
-	#timestamp : ''ab 7/7/2003 23:21''
-}
+{ #category : #''as yet unclassified'' }
 MCMockClassA class >> one [
 
 	^ 1
 ]
 
-{
-	#category : #''as yet unclassified'',
-	#timestamp : ''cwp 8/10/2003 02:32''
-}
+{ #category : #''as yet unclassified'' }
 MCMockClassA class >> touchCVar [
 	CVar := #touched
 ]
@@ -69,35 +56,23 @@ MCMockClassA >> d [
 	^ ''d''
 ]
 
-{
-	#category : #boolean,
-	#timestamp : ''cwp 7/13/2003 02:49''
-}
+{ #category : #boolean }
 MCMockClassA >> falsehood [
 	^ false
 ]
 
-{
-	#category : #boolean,
-	#timestamp : ''ab 7/7/2003 23:21''
-}
+{ #category : #boolean }
 MCMockClassA >> moreTruth [
 
 	^ true
 ]
 
-{
-	#category : #numeric,
-	#timestamp : ''cwp 8/2/2003 17:26''
-}
+{ #category : #numeric }
 MCMockClassA >> one [
 	^ 1
 ]
 
-{
-	#category : #''drag\''n\''drop'',
-	#timestamp : ''avi 9/23/2003 17:14''
-}
+{ #category : #''drag\''n\''drop'' }
 MCMockClassA >> q [
 ]
 
@@ -106,10 +81,7 @@ MCMockClassA >> truth [
 	^ true
 ]
 
-{
-	#category : #numeric,
-	#timestamp : ''avi 9/11/2004 15:59''
-}
+{ #category : #numeric }
 MCMockClassA >> two [
 	^ 2
 ]

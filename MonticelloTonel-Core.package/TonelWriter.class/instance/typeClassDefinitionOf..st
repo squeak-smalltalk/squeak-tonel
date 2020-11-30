@@ -28,9 +28,9 @@ typeClassDefinitionOf: aClassDefinition
 	(aClassDefinition variables select: #isClassInstanceVariable thenCollect: #name)
 		ifNotEmpty: [ :vars | definition at: #classInstVars put: vars asArray ].
 
-	definition 		
-		at: #category put: aClassDefinition category;
-		in: [:dict | aClassDefinition commentStamp ifNotNil: [:stamp |
-			stamp ifNotEmpty: [definition at: #commentStamp put: stamp]]].
+	definition at: #category put: aClassDefinition category.
+	
+	(self shouldWriteChangestamp: aClassDefinition commentStamp) ifTrue: [
+		definition at: TonelWriter squeakChangestamp put: aClassDefinition commentStamp ].
 	
 	^ self toSTON: definition

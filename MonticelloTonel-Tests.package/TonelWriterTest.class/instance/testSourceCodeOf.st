@@ -12,22 +12,15 @@ I am a simple Mock for Tonel export test
 Class {
 	#name : #TonelMock,
 	#superclass : #Object,
-	#category : ''MonticelloTonel-Tests'',
-	#commentStamp : ''CyrilFerlicot 10/23/2018 15:55''
+	#category : ''MonticelloTonel-Tests''
 }
 
-{
-	#category : #accessing,
-	#timestamp : ''12/9/2018 20:41:24''
-}
+{ #category : #accessing }
 TonelMock class >> classMethod [
 	^ 8
 ]
 
-{
-	#category : #accessing,
-	#timestamp : ''12/9/2018 20:41:24''
-}
+{ #category : #accessing }
 TonelMock >> instanceMethod [
 	^ true
 ]

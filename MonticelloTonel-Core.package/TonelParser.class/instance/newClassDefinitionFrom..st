@@ -15,4 +15,4 @@ newClassDefinitionFrom: anArray
 		classInstVarNames: (metadata at: 'classInstVars' ifAbsent: [ #() ])
 		type: (metadata at: #type ifAbsent: [ #normal ]) asSymbol
 		comment: (anArray second ifNil: [ '' ])
-		commentStamp: (metadata at: #commentStamp ifAbsent: [ nil ])
+		commentStamp: (metadata at: TonelWriter squeakChangestamp ifAbsent: [ nil ])

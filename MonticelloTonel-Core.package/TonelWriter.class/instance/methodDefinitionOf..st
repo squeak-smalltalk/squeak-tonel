@@ -1,8 +1,11 @@
 private definitions
 methodDefinitionOf: aMethodDefinition
-	^ self toSTON: (OrderedDictionary new 
+	| dict |
+	dict := OrderedDictionary new 
 		at: #category put: aMethodDefinition category;
-		in: [:dict | aMethodDefinition timeStamp ifNotNil: [:stamp |
-			stamp ifNotEmpty: [dict at: #timestamp put: stamp]]];
-		yourself)	
+		yourself.
 	
+	(self shouldWriteChangestamp: aMethodDefinition timeStamp) ifTrue: [
+		dict at: TonelWriter squeakChangestamp put: aMethodDefinition timeStamp].
+	
+	^ self toSTON: dict
